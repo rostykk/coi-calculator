@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COI Calculator</title>
+  <style>
+    body, html {
+      margin:0px;
+      padding:0px;
+    }
+    .recipe {
+      margin-bottom: 10px;
+    }
+
+    .cy {
+  width: 350px;
+  height: 250px;
+  display: block;
+  background-color: rgba(0,0,0,0.1);
+  border: 1px solid grey;
+  position: relative;
+}
+
+.cy button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#main-graph {
+  width: 100%;
+  height: 500px;
+  display: block;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0.3);
+}
+
+#outputs, #inputs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#outputs .cy, #inputs .cy {
+  margin: 10px;
+}
+  </style>
+</head>
+<body>
+  <a href="https://codeberg.org/Captain_Of_Coit/coi-calculator" target="_blank">Source Code</a>
+  <div id="selected-output">
+    <select></select>
+  </div>
+  <div id="common-recipes"></div>
+  <h1>Main Graph</h1>
+  <div id="main-graph">
+    As you add outputs/inputs, your main graph will appear here, fret not :) 
+  </div>
+  <div id="controls">
+    <button id="reset" onClick="window.location.reload()">Reset Recipe</button>
+    <button id="reset_layout">Reset Zoom/Layout</button>
+    <button id="export">Export</button>
+    <button id="import">Import</button>
+  </div>
+  <h1>Outputs</h1>
+  <div id="outputs"></div>
+  <h1>Inputs</h1>
+  <div id="inputs"></div>
+  <script src="./dist/cytoscape.min.js"></script>
+  <script src="./dist/dagre.min.js"></script>
+  <script src="./dist/cytoscape-dagre.js"></script>
+  <script src="./dist/lz-string.min.js"></script>
+  <script src="./app.js"></script>
+  <script defer data-domain="codeberg.page" src="https://plausible.io/js/script.js"></script>
+</body>
+</html>
