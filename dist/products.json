@@ -1127,7 +1127,7 @@
         }
     },
     "construction_parts_ii": {
-        "icon": "ConstructionParts2.png",
+        "icon": "ConstructionPartsIi.png",
         "id": "construction_parts_ii",
         "machines": {
             "input": [
@@ -1162,7 +1162,7 @@
         }
     },
     "construction_parts_iii": {
-        "icon": "ConstructionParts3.png",
+        "icon": "ConstructionPartsIii.png",
         "id": "construction_parts_iii",
         "machines": {
             "input": [
@@ -1193,7 +1193,7 @@
         }
     },
     "construction_parts_iv": {
-        "icon": "ConstructionParts4.png",
+        "icon": "ConstructionPartsIv.png",
         "id": "construction_parts_iv",
         "machines": {
             "input": [],
@@ -1832,7 +1832,7 @@
         }
     },
     "electronics_ii": {
-        "icon": "Electronics2.png",
+        "icon": "ElectronicsIi.png",
         "id": "electronics_ii",
         "machines": {
             "input": [
@@ -1881,7 +1881,7 @@
         }
     },
     "electronics_iii": {
-        "icon": "Electronics3.png",
+        "icon": "ElectronicsIii.png",
         "id": "electronics_iii",
         "machines": {
             "input": [
@@ -2120,7 +2120,7 @@
         }
     },
     "fertilizer_i": {
-        "icon": "Fertilizer1.png",
+        "icon": "FertilizerI.png",
         "id": "fertilizer_i",
         "machines": {
             "input": [
@@ -2163,7 +2163,7 @@
         }
     },
     "fertilizer_ii": {
-        "icon": "Fertilizer2.png",
+        "icon": "FertilizerIi.png",
         "id": "fertilizer_ii",
         "machines": {
             "input": [
@@ -2200,7 +2200,7 @@
         }
     },
     "fertilizer_organic": {
-        "icon": "FertilizerOrganic.png",
+        "icon": "Fertilizer.png",
         "id": "fertilizer_organic",
         "machines": {
             "input": [
@@ -3179,7 +3179,7 @@
         }
     },
     "lab_equipment_ii": {
-        "icon": "LabEquipment2.png",
+        "icon": "LabEquipmentIi.png",
         "id": "lab_equipment_ii",
         "machines": {
             "input": [
@@ -3211,7 +3211,7 @@
         }
     },
     "lab_equipment_iii": {
-        "icon": "LabEquipment3.png",
+        "icon": "LabEquipmentIii.png",
         "id": "lab_equipment_iii",
         "machines": {
             "input": [
@@ -3241,7 +3241,7 @@
         }
     },
     "lab_equipment_iv": {
-        "icon": "LabEquipment4.png",
+        "icon": "LabEquipmentIv.png",
         "id": "lab_equipment_iv",
         "machines": {
             "input": [
@@ -3381,7 +3381,7 @@
         }
     },
     "maintenance_i": {
-        "icon": "Maintenance1.png",
+        "icon": "MaintenanceI.png",
         "id": "maintenance_i",
         "machines": {
             "input": [],
@@ -3401,7 +3401,7 @@
         }
     },
     "maintenance_ii": {
-        "icon": "Maintenance2.png",
+        "icon": "MaintenanceIi.png",
         "id": "maintenance_ii",
         "machines": {
             "input": [],
@@ -3419,7 +3419,7 @@
         }
     },
     "maintenance_iii": {
-        "icon": "Maintenance3.png",
+        "icon": "MaintenanceIii.png",
         "id": "maintenance_iii",
         "machines": {
             "input": [
@@ -3674,7 +3674,7 @@
         }
     },
     "medical_supplies_ii": {
-        "icon": "MedicalSupplies2.png",
+        "icon": "MedicalSuppliesIi.png",
         "id": "medical_supplies_ii",
         "machines": {
             "input": [
@@ -3706,7 +3706,7 @@
         }
     },
     "medical_supplies_iii": {
-        "icon": "MedicalSupplies3.png",
+        "icon": "MedicalSuppliesIii.png",
         "id": "medical_supplies_iii",
         "machines": {
             "input": [],
@@ -4486,7 +4486,7 @@
         }
     },
     "pcb": {
-        "icon": "PCB.png",
+        "icon": "Pcb.png",
         "id": "pcb",
         "machines": {
             "input": [
@@ -5089,7 +5089,7 @@
         }
     },
     "silicon_poly": {
-        "icon": "SiliconPoly.png",
+        "icon": "Silicon.png",
         "id": "silicon_poly",
         "machines": {
             "input": [
@@ -6206,7 +6206,7 @@
         }
     },
     "vehicle_parts_ii": {
-        "icon": "VehicleParts2.png",
+        "icon": "VehiclePartsIi.png",
         "id": "vehicle_parts_ii",
         "machines": {
             "input": [
@@ -6235,7 +6235,7 @@
         }
     },
     "vehicle_parts_iii": {
-        "icon": "VehicleParts3.png",
+        "icon": "VehiclePartsIii.png",
         "id": "vehicle_parts_iii",
         "machines": {
             "input": [],
